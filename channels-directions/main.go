@@ -28,6 +28,7 @@ func main() {
 	pings := make(chan string)
 	pongs := make(chan string)
 
+	///Comment
 	go ping(pings, "passed message 1", 1)
 	go ping(pings, "passed message 4", 4)
 	go ping(pings, "passed message 3", 3)
